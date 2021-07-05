@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Youmator</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Your Awesome Youtube Comrade</description>
+	<lastBuildDate>Sun, 25 Apr 2021 05:29:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5</generator>
+
+<image>
+	<url>/wp-content/uploads/2021/04/cropped-youmator-1-32x32.png</url>
+	<title>Uncategorized &#8211; Youmator</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>PHP ஐப் பயன்படுத்தி முதன்மை எண்ணைக் கண்டறிதல் &#124; Find Prime number using php in tamil</title>
+		<link>/finding-prime-number-using-php-in-tamil/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Sun, 25 Apr 2021 05:27:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=173</guid>
+
+					<description><![CDATA[PHP ஐப் பயன்படுத்தி முதன்மை எண்ணைக் கண்டறிதல் பிரதான எண் என்றால் என்ன? ஒரு பிரதான எண் (அல்லது ஒரு பிரதான) என்பது 1 ஐ விட அதிகமான இயற்கை எண், இது இரண்டு சிறிய இயற்கை எண்களின் தயாரிப்பு அல்ல. முதன்மையானதல்ல 1 ஐ விட அதிகமான இயற்கை எண் ஒரு கூட்டு எண் என்று அழைக்கப்படுகிறது. எடுத்துக்காட்டாக, 5 முதன்மையானது, ஏனெனில் 1 × 5 அல்லது 5 × 1 என ஒரு ... <a title="PHP ஐப் பயன்படுத்தி முதன்மை எண்ணைக் கண்டறிதல் &#124; Find Prime number using php in tamil" class="read-more" href="/finding-prime-number-using-php-in-tamil/" aria-label="More on PHP ஐப் பயன்படுத்தி முதன்மை எண்ணைக் கண்டறிதல் &#124; Find Prime number using php in tamil">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<pre id="tw-target-text" class="wp-block-preformatted">PHP ஐப் பயன்படுத்தி முதன்மை எண்ணைக் கண்டறிதல்</pre>
+
+
+
+<p><br>பிரதான எண் என்றால் என்ன?</p>
+
+
+
+<pre id="tw-target-text" class="wp-block-preformatted">ஒரு பிரதான எண் (அல்லது ஒரு பிரதான) என்பது 1 ஐ விட அதிகமான இயற்கை எண், இது இரண்டு சிறிய இயற்கை எண்களின் தயாரிப்பு அல்ல. முதன்மையானதல்ல 1 ஐ விட அதிகமான இயற்கை எண் ஒரு கூட்டு எண் என்று அழைக்கப்படுகிறது. எடுத்துக்காட்டாக, 5 முதன்மையானது, ஏனெனில் 1 × 5 அல்லது 5 × 1 என ஒரு தயாரிப்பாக எழுதுவதற்கான ஒரே வழிகள் 5 ஐ உள்ளடக்கியது. இருப்பினும், 4 கலப்பு ஆகும், ஏனெனில் இது ஒரு தயாரிப்பு (2 × 2), இதில் இரு எண்களும் 4 ஐ விட சிறியவை. எண்கணிதத்தின் அடிப்படைக் கோட்பாட்டின் காரணமாக முதன்மைக் கோட்பாடு எண் கோட்பாட்டில் மையமாக உள்ளது: 1 ஐ விட அதிகமான ஒவ்வொரு இயற்கை எண்ணும் ஒரு பிரதம அல்லது அவற்றின் வரிசைக்கு தனித்துவமான பிரைம்களின் தயாரிப்பாக காரணியாக்கப்படலாம்.</pre>
+
+
+
+<p>PHP என்றால் என்ன?</p>
+
+
+
+<pre id="tw-target-text" class="wp-block-preformatted">PHP என்பது ஒரு பொது நோக்கம் ஸ்கிரிப்டிங் மொழி குறிப்பாக வலை அபிவிருத்திக்கு ஏற்றது.</pre>
+
+
+
+<p>Code:</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+$num = 1 ;
+while ($num &lt; 100 ) {
+    $count=0;
+    for ( $i=1;$i&lt;=$num;$i++) {
+        if (($num%$i)==0) {
+            $count++;
+        }
+    }
+    if ($count&lt;3) {
+    echo $num." , ";
+    } $num=$num+1;
+}
+?&gt;</code></pre>
+
+
+
+<p><br>இந்த வீடியோவில் மேலும் காண்க:</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="PHP Tutorial #14 | Finding Prime Number using PHP | Tamil" width="900" height="506" src="https://www.youtube.com/embed/kn1GkpDeRJ8?start=22&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>PHP operators explained</title>
+		<link>/php-operators-explained/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Sat, 10 Apr 2021 13:47:53 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=107</guid>
+
+					<description><![CDATA[In this PHP tutorial you will learn about operators in PHP. Operators are used frequently in our PHP expressions and conditions. we have mathematical operators which are left associative For example addtion $a = 2 + 3; subtraction $b = 4 - 3; multiplication $c = 4 * 4; division $d = 10 / 5; ... <a title="PHP operators explained" class="read-more" href="/php-operators-explained/" aria-label="More on PHP operators explained">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="6: Operators In PHP | Procedural PHP Tutorial For Beginners | PHP Tutorial | mmtuts" width="900" height="506" src="https://www.youtube.com/embed/dx7dO-pkGKg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>In this PHP tutorial you will learn about operators in PHP. Operators are used frequently in our PHP expressions and conditions.</p>
+
+
+
+<p>we have mathematical operators which are left associative</p>
+
+
+
+<p>For example addtion</p>
+
+
+
+<p><code>$a = 2 + 3;</code></p>
+
+
+
+<p>subtraction</p>
+
+
+
+<p><code>$b = 4 - 3;</code></p>
+
+
+
+<p>multiplication</p>
+
+
+
+<p><code>$c = 4 * 4;</code></p>
+
+
+
+<p>division</p>
+
+
+
+<p><code>$d = 10 / 5;</code></p>
+
+
+
+<p>Logical operators</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td>Operator</td><td>Name</td><td>Example</td></tr><tr><td>&amp;&amp;</td><td>and</td><td><code>true &amp;&amp; true; \\ true</code></td></tr><tr><td>||</td><td>or</td><td><code>true || false ; \\true</code></td></tr></tbody></table></figure>
+
+
+
+<p>you can find about more operators in the above video.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Utilizing Security Features in SSH</title>
+		<link>/utilizing-security-features-in-ssh/</link>
+		
+		<dc:creator><![CDATA[matrix-tiger]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 23:49:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=71</guid>
+
+					<description><![CDATA[SSH lets you securely manage remote systems. However, most people don&#8217;t make use of the full set of security features SSH has to offer. This session covers SSH security topics such as encryption algorithms, using ssh-agent to forward credentials, setting up two factor authentication, and more. This Talk is Designed For DevOps engineers System administrators ... <a title="Utilizing Security Features in SSH" class="read-more" href="/utilizing-security-features-in-ssh/" aria-label="More on Utilizing Security Features in SSH">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>SSH lets you securely manage remote systems. However, most people don&#8217;t make use of the full set of security features SSH has to offer. This session covers SSH security topics such as encryption algorithms, using ssh-agent to forward credentials, setting up two factor authentication, and more.</p>
+
+
+
+<p>This Talk is Designed For</p>
+
+
+
+<ul><li>DevOps engineers</li><li>System administrators</li></ul>
+
+
+
+<p>Prerequisites</p>
+
+
+
+<ul><li>Basic knowledge of SSH, such as logging in and creating/using SSH keys</li></ul>
+
+
+
+<p>New to DigitalOcean? Get US $100 in credit when you sign up:</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Utilizing Security Features in SSH" width="900" height="506" src="https://www.youtube.com/embed/pGPprmhuYB4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>The Arecibo Message Decoded</title>
+		<link>/the-arecibo-message-decoded/</link>
+		
+		<dc:creator><![CDATA[matrix-tiger]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 23:31:35 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=75</guid>
+
+					<description><![CDATA[The Arecibo message was humanity&#8217;s most powerful attempt at messaging aliens. Let&#8217;s decode it!. In 1974, the Arecibo radio telescope transmitted a message to contact extraterrestrials. The message was designed by Frank Drake. Here&#8217;s what it says. 00:00​ Start01:40​ Magellan TV02:35​ History of the message and M1304:35​ How the message was sent05:26​ Message Structure06:30​ Decoding ... <a title="The Arecibo Message Decoded" class="read-more" href="/the-arecibo-message-decoded/" aria-label="More on The Arecibo Message Decoded">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>The Arecibo message was humanity&#8217;s most powerful attempt at messaging aliens. Let&#8217;s decode it!. In 1974, the Arecibo radio telescope transmitted a message to contact extraterrestrials. The message was designed by Frank Drake. Here&#8217;s what it says.</p>
+
+
+
+<p>00:00​ Start<br>01:40​ Magellan TV<br>02:35​ History of the message and M13<br>04:35​ How the message was sent<br>05:26​ Message Structure<br>06:30​ Decoding the first 10 numbers from binary<br>08:20​ Atomic elements and DNA<br>09:41​ Depiction of humanity and population<br>10:51​ Depiction of Arecibo<br>11:36​ Testing the message and dangers<br>14:00​ We&#8217;re disappearing<br>15:19​ Possible signal detected?</p>
+
+
+
+<p>References:<br>Astrobiology interview with Frank Drake (2007): https://www.astrobio.net/alien-life/the-man-to-contact/<br>Arecibo Message Project: https://www.naic.edu/pkg/webutils/challenge/about-message.html<br>Encyclopedia Galactica (Write Science): https://writescience.wordpress.com/2014/02/25/cosmos-12-encyclopaedia-galactica/</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="The Arecibo Message Decoded" width="900" height="506" src="https://www.youtube.com/embed/5V2KuClix_k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>This Woman’s Dog Has Saved Her Life Three Times After Detecting Her Cancer Symptoms</title>
+		<link>/this-womans-dog-has-saved-her-life-three-times-after-detecting-her-cancer-symptoms/</link>
+		
+		<dc:creator><![CDATA[matrix-tiger]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 23:30:42 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=68</guid>
+
+					<description><![CDATA[Hello, my name is Ben, today I will talk about my mom and out little hero Charlie. My mom Emma Smith was 42 when her dog kept sniffing her right breast. But it turned out that Charlie the dog was on to something. When I was seven my mom took me and my brother Jack, ... <a title="This Woman’s Dog Has Saved Her Life Three Times After Detecting Her Cancer Symptoms" class="read-more" href="/this-womans-dog-has-saved-her-life-three-times-after-detecting-her-cancer-symptoms/" aria-label="More on This Woman’s Dog Has Saved Her Life Three Times After Detecting Her Cancer Symptoms">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Hello, my name is Ben, today I will talk about my mom and out little hero Charlie. My mom Emma Smith was 42 when her dog kept sniffing her right breast. But it turned out that Charlie the dog was on to something.</p>
+
+
+
+<p>When I was seven my mom took me and my brother Jack, six, to pick a puppy from a litter of Staffordshire Bull Terriers, it was love at first sight.</p>
+
+
+
+<p>Right away, little Charlie came bounding over to meet us, and from that moment on she was part of the family.</p>
+
+
+
+<p>She was a little bundle of energy and quite naughty, chewing everything she could get her paws on but she was so sweet and loving that no one could stay cross for long.</p>
+
+
+
+<p>But when Charlie was just a few months old she began acting oddly, jumping up and sniffing at the right side of mom’s chest.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="This Woman’s Dog Has Saved Her Life Three Times After Detecting Her Cancer Symptoms" width="900" height="506" src="https://www.youtube.com/embed/50FRi5P7hzw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Clocking the inner workings of the human brain &#124; Greg Gage &#124; TEDxDetroit</title>
+		<link>/clocking-the-inner-workings-of-the-human-brain-greg-gage-tedxdetroit/</link>
+		
+		<dc:creator><![CDATA[matrix-tiger]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 23:27:41 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=73</guid>
+
+					<description><![CDATA[The brain is complex, but extremely fascinating. We need more people interested in studying the brain because 1 in 5 people are likely to develop a neurological disorder&#8230; and there are no cures! Greg is a neuroscientist and electrical engineer who loves tinkering with all things electric. He’s developing tools, curriculum, and experiments that allow ... <a title="Clocking the inner workings of the human brain &#124; Greg Gage &#124; TEDxDetroit" class="read-more" href="/clocking-the-inner-workings-of-the-human-brain-greg-gage-tedxdetroit/" aria-label="More on Clocking the inner workings of the human brain &#124; Greg Gage &#124; TEDxDetroit">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>The brain is complex, but extremely fascinating. We need more people interested in studying the brain because 1 in 5 people are likely to develop a neurological disorder&#8230; and there are no cures! Greg is a neuroscientist and electrical engineer who loves tinkering with all things electric. He’s developing tools, curriculum, and experiments that allow the general public to participate, hands-on, in neuroscience discovery. He is a senior fellow at TED and an investigator at the National Institute of Health. This talk was given at a TEDx event using the TED conference format but independently organized by a local community</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Clocking the inner workings of the human brain | Greg Gage | TEDxDetroit" width="900" height="506" src="https://www.youtube.com/embed/vi2De2JXfDU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Appearances Elon Musk Has Made In Movies (2005 &#8211; 2018)</title>
+		<link>/appearances-elon-musk-has-made-in-movies-2005-2018/</link>
+		
+		<dc:creator><![CDATA[matrix-tiger]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 13:09:10 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=41</guid>
+
+					<description><![CDATA[Elon Musk&#160;is the founder of SpaceX and Boring Company, co-founder of Neuralink and OpenAI. He is a early stage investor and current CEO of Tesla. In this video you can see Elon Musk&#8217;s appearance in the movies between 2005 and 2018]]></description>
+										<content:encoded><![CDATA[
+<p>Elon Musk&nbsp;is the founder of SpaceX and Boring Company, co-founder of Neuralink and OpenAI. He is a early stage investor and current CEO of Tesla.</p>
+
+
+
+<p>In this video you can see Elon Musk&#8217;s appearance in the movies between 2005 and 2018</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Appearances Elon Musk Has Made In Movies (2005 - 2018)" width="900" height="506" src="https://www.youtube.com/embed/yM0tlubdo-Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>U.S. Government Now Owns $1 Billion Bitcoin</title>
+		<link>/u-s-government-now-owns-1-billion-bitcoin/</link>
+		
+		<dc:creator><![CDATA[matrix-tiger]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 13:07:37 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=55</guid>
+
+					<description><![CDATA[USD 1 billion worth of Bitcoin seized by the U.S. government. It was seized from a hacker who allegedly stole it from the Silk Road.]]></description>
+										<content:encoded><![CDATA[
+<p>USD 1 billion worth of Bitcoin seized by the U.S. government. It was seized from a hacker who allegedly stole it from the Silk Road.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="U.S. Government Now Owns $1 Billion Bitcoin" width="900" height="506" src="https://www.youtube.com/embed/jXt9PylERh8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Josh brener cameo in big bang theory</title>
+		<link>/josh-brener-cameo-in-big-bang-theory/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 01:00:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=54</guid>
+
+					<description><![CDATA[Stewards replacement at the comic book store! The Big Bang Theory.]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Dale - TBBT" width="900" height="675" src="https://www.youtube.com/embed/qa8P5X2EJRA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Stewards replacement at the comic book store! The Big Bang Theory.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Stan lee cameo in endgame</title>
+		<link>/stan-lee-cameo-in-endgame/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Wed, 07 Apr 2021 00:45:19 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=50</guid>
+
+					<description><![CDATA[Every Stan Lee Cameo ever 2019 (2008-2019)]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Every Stan Lee Cameo ever 2019 (2008-2019)" width="900" height="506" src="https://www.youtube.com/embed/yfQWgWMUCs0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Every Stan Lee Cameo ever 2019 (2008-2019)</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

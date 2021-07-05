@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=http://localhost/wp-content/uploads/https:/i.ytimg.com/vi/4V3GXPViXxQ/maxresdefault.jpg">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "http://localhost/wp-content/uploads/https:/i.ytimg.com/vi/4V3GXPViXxQ/maxresdefault.jpg";
+		</script>
+
+		<p>You are being redirected to <a href="http://localhost/wp-content/uploads/https:/i.ytimg.com/vi/4V3GXPViXxQ/maxresdefault.jpg">http://localhost/wp-content/uploads/https:/i.ytimg.com/vi/4V3GXPViXxQ/maxresdefault.jpg</a></p>
+	</body>
+</html>

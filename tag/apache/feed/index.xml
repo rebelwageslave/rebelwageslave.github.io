@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>APACHE &#8211; Youmator</title>
+	<atom:link href="/tag/apache/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Your Awesome Youtube Comrade</description>
+	<lastBuildDate>Sat, 01 May 2021 03:34:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5</generator>
+
+<image>
+	<url>/wp-content/uploads/2021/04/cropped-youmator-1-32x32.png</url>
+	<title>APACHE &#8211; Youmator</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to build a very simple forum with PHP, MYSQL,CSS,XAMPP</title>
+		<link>/how-to-build-a-very-simple-forum-with-php-mysqlcssxampp/</link>
+		
+		<dc:creator><![CDATA[]]></dc:creator>
+		<pubDate>Sat, 01 May 2021 03:29:01 +0000</pubDate>
+				<category><![CDATA[PHP tutorial]]></category>
+		<category><![CDATA[APACHE]]></category>
+		<category><![CDATA[MYSQL]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[PHPMYADMIN]]></category>
+		<category><![CDATA[XAMPP]]></category>
+		<guid isPermaLink="false">https://youmator.com/?p=187</guid>
+
+					<description><![CDATA[First of all welcome to my blog youmator, in this tutorial i will teach you how to build a very simple forum with php, for the sake of simplictiy we would completely ignore css for this tutorial. Requirements Before starting this tutorial these are the requirements that we need A web server with php installed ... <a title="How to build a very simple forum with PHP, MYSQL,CSS,XAMPP" class="read-more" href="/how-to-build-a-very-simple-forum-with-php-mysqlcssxampp/" aria-label="More on How to build a very simple forum with PHP, MYSQL,CSS,XAMPP">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>First of all welcome to my blog <a href="https://youmator.com/" data-type="URL" data-id="https://youmator.com/">youmator</a>, in this tutorial i will teach you how to build a very simple forum with php, for the sake of simplictiy we would completely ignore css for this tutorial.</p>
+
+
+
+<h2>Requirements</h2>
+
+
+
+<p>Before starting this tutorial these are the requirements that we need</p>
+
+
+
+<ul><li>A web server with php installed ( Probably apache or nginx )</li><li>A Mysql database</li><li>Sublime text or a text editor of your choice.</li></ul>
+
+
+
+<p>If you have all of the above installed you can skip to this section, or else read the installation manual</p>
+
+
+
+<h2>Installation Manual</h2>
+
+
+
+<p>This installation manual covers a list of operating systems to obtain the setup for the current tutorial. Currently we cover windows, mac, ubuntu and any other linux operating systems.</p>
+
+
+
+<h3>Windows XAMPP Installation</h3>
+
+
+
+<p>We have different setups based on the windows version.</p>
+
+
+
+<h4>For windows 7:</h4>
+
+
+
+<p>Follow the below video tutorial for installing xampp on windows 7</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Install XAMPP In Windows 7" width="900" height="506" src="https://www.youtube.com/embed/zZ6NQRUYR2E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>For windows 8 / 10 you can follow this awesome tutorial</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="How to install XAMPP in Windows 10 &amp; 8.1/8/7" width="900" height="506" src="https://www.youtube.com/embed/_tTOmkxvUy0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h3>Linux MYSQL and Apache installation</h3>
+
+
+
+<p>To install apache / nginx server and mysql database for linux we have a very detailed <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04">tutorial</a> provided by digital ocean, but basically this should be the set of commands to install it on linux</p>
+
+
+
+<pre class="wp-block-code"><code>sudo apt install apache2
+sudo apt install mysql-server</code></pre>
+
+
+
+<p>you can also watch the below video tutorial if you missed something</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Install LAMP Stack (Linux, Apache, MySQL, PHP) in Ubuntu 15.10" width="900" height="506" src="https://www.youtube.com/embed/vazRx1Ei8VA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2>Mac Server / Database installation</h2>
+
+
+
+<p>For mac you can use the below video</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Install Full Webserver (Apache, PHP, MySQL, phpMyAdmin) | macOS" width="900" height="506" src="https://www.youtube.com/embed/vHYh-m4iXw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>We are all set now, once you have installed and configured this, we need the following info before starting the tutorial.</p>
+
+
+
+<ul><li>Your database username</li><li>Your database password</li></ul>
+
+
+
+<p>We need the above to use your database from your server.</p>
+
+
+
+<h2>What we are going to build ?</h2>
+
+
+
+<p>For a forum i can think of two pages which we need to create, for the sake of simplicity lets completely ignore user authentication. Lets assume that this is an anonymous forum. So any one who visits the page can comment and participate in the discussion.So we would need the following two pages</p>
+
+
+
+<ul><li>A page to list all the forum questions and answers</li><li>A page to view a single forum question and answers</li></ul>
+
+
+
+<p>we name the pages to the following file names</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td>Functionality</td><td>Filename</td></tr><tr><td>List all questions and answers</td><td>index.php</td></tr><tr><td>List a single question and answer</td><td>question.php</td></tr></tbody></table><figcaption>a table showing a list of filenames a user need to create</figcaption></figure>
+
+
+
+<ul><li>Go to your html folder, create a folder named forum for our tutorial</li><li>Inside the folder create these two files</li></ul>
+
+
+
+<p>The folder structure should look like the below</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="291" height="180" src="https://youmator.com/wp-content/uploads/2021/04/sublime-text-screenshot-mysql-apache.png" alt="" class="wp-image-201"/><figcaption>an image showing the folder structure with files index,php and question.php</figcaption></figure></div>
+
+
+
+<p>we have created a folder structure for our project, now we can start to add the code. I am going to explain it line by line what each line of code is doing to get a clear idea. i can divide the functionalities in to the following sub tasks. we need code to</p>
+
+
+
+<ul><li>Create a basic database and table structure for forum.</li><li>Create a form to save the question.</li><li>Show all saved questions in the index.php</li><li>Allow user to add answer for a question.</li></ul>
+
+
+
+<h3>Create a basic database and table structure for forum</h3>
+
+
+
+<p>Before creating a database connection you need to login to the mysql server. You can do this via <a href="https://www.phpmyadmin.net/" data-type="URL" data-id="https://www.phpmyadmin.net/">phpmyadmin</a> a GUI tool to access your mysql instance. First of all we need to create a database named <code>forum</code></p>
+
+
+
+<p><strong>Step 1:</strong> Open phpmyadmin, click on the left side, and click on the icon.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="889" height="464" src="https://youmator.com/wp-content/uploads/2021/05/phpmyadmin_create_db.png" alt="" class="wp-image-216" srcset="/wp-content/uploads/2021/05/phpmyadmin_create_db.png 889w, /wp-content/uploads/2021/05/phpmyadmin_create_db-300x157.png 300w, /wp-content/uploads/2021/05/phpmyadmin_create_db-768x401.png 768w" sizes="(max-width: 889px) 100vw, 889px" /><figcaption>Phpmyadmin ui with create database option arrow</figcaption></figure>
+
+
+
+<p><strong>Step 2:</strong> Set the database name as forum.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="667" height="232" src="https://youmator.com/wp-content/uploads/2021/05/phpmyadmin_db.png" alt="" class="wp-image-219" srcset="/wp-content/uploads/2021/05/phpmyadmin_db.png 667w, /wp-content/uploads/2021/05/phpmyadmin_db-300x104.png 300w" sizes="(max-width: 667px) 100vw, 667px" /><figcaption>set database name to forum</figcaption></figure>
+
+
+
+<p><strong>Step 3: </strong>Now we have a database ready, we need to create a table in the mysql, to create a table you need to execute a mysql query, you can execute the mysql query by clicking on this option.</p>
+
+
+
+<p>The query you need to paste in this box is the below.</p>
+
+
+
+<pre class="wp-block-code"><code>CREATE TABLE `forum`.`question` ( `id` INT(100) NOT NULL AUTO_INCREMENT , `question` VARCHAR(255) NOT NULL , `answer` TEXT NOT NULL , PRIMARY KEY (`id`)); </code></pre>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="270" src="https://youmator.com/wp-content/uploads/2021/05/table_creation_query-1024x270.png" alt="" class="wp-image-221" srcset="/wp-content/uploads/2021/05/table_creation_query-1024x270.png 1024w, /wp-content/uploads/2021/05/table_creation_query-300x79.png 300w, /wp-content/uploads/2021/05/table_creation_query-768x203.png 768w, /wp-content/uploads/2021/05/table_creation_query-1536x405.png 1536w, /wp-content/uploads/2021/05/table_creation_query.png 1604w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Table creation query mysql.</figcaption></figure>
+
+
+
+<p>Click on the go button, if everything goes well we should have a table like this.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="240" height="190" src="https://youmator.com/wp-content/uploads/2021/05/success_table_query.png" alt="" class="wp-image-223"/><figcaption>Correct database structure for our forum</figcaption></figure></div>
+
+
+
+<p>PHP, MYSQL are two different process at the operating system level, to communicate with one another PHP has a predefined function which can be used to connect to MYSQL database.</p>
+
+
+
+<p>The function is </p>
+
+
+
+<pre class="wp-block-code"><code>mysqli_connect($host, $username, $password, $database ...some other arguments)</code></pre>
+
+
+
+<p>so we need to provide $host, $username, $password, $database values in order to use this function</p>
+
+
+
+<p><em><kbd>Note: If you didnt setup password for mysql you can pass null for $password variable</kbd></em></p>
+
+
+
+<p>Lets try to establish a database connection, type the below code in index.php.</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+
+$host = 'localhost';
+
+$username = 'phpmyadmin';
+
+$password = 'some_pass';
+
+$database = 'forum';
+
+$database_connection = mysqli_connect($host, $username, $password, $database);
+
+
+if ( $database_connection === false ) {
+	echo "Database connection failed";
+}
+else {
+	echo "Database Connection success";
+}
+
+
+?&gt;</code></pre>
+
+
+
+<p>the mysqli_connect according to documentation will return a object when the database connection is created, if its not then it will return false.</p>
+
+
+
+<p>Set $username and $password value for the code and check if you see the below message in the screen</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Database Connection success</p></blockquote>
+
+
+
+<p>if you see this message then we are good to proceed in to next step, if not then please check your connection variables or comment down your problem you see.</p>
+
+
+
+<h3>Create a form to save the question</h3>
+
+
+
+<p>lets alter the code a bit, we will remove our database success and error messages since we know the connection is succesful.</p>
+
+
+
+<p>so our code would now change like this in index.php</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+
+
+$host = 'localhost';
+
+$username = 'phpmyadmin';
+
+$password = 'some_pass';
+
+$database = 'forum';
+
+$database_connection = mysqli_connect($host, $username, $password, $database);
+</code></pre>
+
+
+
+<p>Lets create a simple html form for the user to input the question.</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;title&gt;Welcome to my forum | Add your question&lt;/title&gt;
+&lt;form method="POST"&gt;
+	&lt;input type="text" placeholder="Enter your question here" name="question"&gt;
+	&lt;input type="submit" value="Create question"&gt;
+&lt;/form&gt;
+
+&lt;?php
+
+$host = 'localhost';
+
+$username = 'phpmyadmin';
+
+$password = 'some_pass';
+
+$database = 'forum';
+
+$database_connection = mysqli_connect($host, $username, $password, $database);
+
+</code></pre>
+
+
+
+<p>if you go to /forum/ you should be able to see a page like this</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="642" height="142" src="https://youmator.com/wp-content/uploads/2021/05/add_question.png" alt="" class="wp-image-235" srcset="/wp-content/uploads/2021/05/add_question.png 642w, /wp-content/uploads/2021/05/add_question-300x66.png 300w" sizes="(max-width: 642px) 100vw, 642px" /><figcaption>Add question page</figcaption></figure></div>
+
+
+
+<p>Now we need to add code to save the data from this input in the database.</p>
+
+
+
+<p>Whenever you submit the form by clicking on Create question button, the following process happens</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="646" height="324" src="https://youmator.com/wp-content/uploads/2021/05/browser_infographics.png" alt="" class="wp-image-238" srcset="/wp-content/uploads/2021/05/browser_infographics.png 646w, /wp-content/uploads/2021/05/browser_infographics-300x150.png 300w" sizes="(max-width: 646px) 100vw, 646px" /><figcaption>A digram explaining the process</figcaption></figure></div>
+
+
+
+<p>The browser makes a request to the index.php which is present on the server with post data which is later parsed by php in to variable named $_POST[&#8216;question&#8217;] in the index.php, we need to save this variable to database.</p>
+
+
+
+<pre class="wp-block-verse">Note 1: The browser sends the variable with name 'question' because the form field is defined with this name &lt;input ... name="question"/&gt;</pre>
+
+
+
+<pre class="wp-block-verse">Note 2: we should also note that this variable doesnt present on every page load on index.php, so we need to always check if the variable is present or not.</pre>
+
+
+
+<p>lets add some more code to get the variable and print it out on submit.</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;title&gt;Welcome to my forum | Add your question&lt;/title&gt;
+&lt;form method="POST"&gt;
+	&lt;input type="text" placeholder="Enter your question here" name="question"&gt;
+	&lt;input type="submit" value="Create question"&gt;
+&lt;/form&gt;
+
+&lt;?php
+
+$host = 'localhost';
+
+$username = 'phpmyadmin';
+
+$password = 'some_pass';
+
+$database = 'forum';
+
+$database_connection = mysqli_connect($host, $username, $password, $database);
+
+// isset and ! empty check to see if variable is not empty and is set.
+
+if ( isset($_POST&#91;'question'] ) &amp;&amp; !empty($_POST&#91;'question'])) {
+
+	$question = $_POST&#91;'question'];
+
+	echo $question; // This command prints out the variable
+
+}</code></pre>
+
+
+
+<p>If you type the question on the input and click on create question, you should be able to see the question.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="438" height="137" src="https://youmator.com/wp-content/uploads/2021/05/Screenshot_2021-05-01_06-57-02.png" alt="" class="wp-image-243" srcset="/wp-content/uploads/2021/05/Screenshot_2021-05-01_06-57-02.png 438w, /wp-content/uploads/2021/05/Screenshot_2021-05-01_06-57-02-300x94.png 300w" sizes="(max-width: 438px) 100vw, 438px" /><figcaption>Screen showing question print out on screen</figcaption></figure></div>
+
+
+
+<p>Congrats, now all we have to do this save the question to the database, to do that we need to create a mysql query and send the query to the mysql server.</p>
+
+
+
+<pre class="wp-block-code"><code>// isset and ! empty check to see if variable is not empty and is set.
+
+if ( isset($_POST&#91;'question'] ) &amp;&amp; !empty($_POST&#91;'question'])) {
+
+	$question = $_POST&#91;'question'];
+
+	// This query will add the question to the mysql database, note that we are substituting
+	// the $query variable in the below query.
+	$query = "INSERT INTO `question` (`id`, `question`, `answer`) VALUES (NULL, '$question', '') ";
+
+	mysqli_query($database_connection, $query);
+
+}</code></pre>
+
+
+
+<p>Now go /forum/, Add a question, click on submit.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="800" height="209" src="https://youmator.com/wp-content/uploads/2021/05/test_question.png" alt="" class="wp-image-255" srcset="/wp-content/uploads/2021/05/test_question.png 800w, /wp-content/uploads/2021/05/test_question-300x78.png 300w, /wp-content/uploads/2021/05/test_question-768x201.png 768w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption>A sample question for testing.</figcaption></figure>
+
+
+
+<p>After you submit, Go to phpmyadmin and check the question table.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="602" height="204" src="https://youmator.com/wp-content/uploads/2021/05/test_question_phpmyadmin.png" alt="" class="wp-image-258" srcset="/wp-content/uploads/2021/05/test_question_phpmyadmin.png 602w, /wp-content/uploads/2021/05/test_question_phpmyadmin-300x102.png 300w" sizes="(max-width: 602px) 100vw, 602px" /></figure></div>
+
+
+
+<p>Now we have successfully completed the step of saving question to database.</p>
+
+
+
+<h3>Show all saved questions in the index.php</h3>
+
+
+
+<p>Its great that we now have ability to save the question, but we will also need the ability to see all saved question and answer, to do that we need to add additional code in index.php.</p>
+
+
+
+<pre class="wp-block-code"><code>$questions_query = "SELECT * FROM `question`";
+$questions_result = mysqli_query($database_connection, $questions_query);
+
+while ( $question_data = mysqli_fetch_assoc($questions_result) ) {
+	$question = $question_data&#91;'question'];
+	$answer = $question_data&#91;'answer'];
+
+	echo "&lt;div class='single-question'&gt;
+		&lt;b&gt;$question&lt;/b&gt;
+		&lt;p&gt;$answer&lt;/p&gt;
+	&lt;/div&gt;";
+}</code></pre>
+
+
+
+<p>we would now be able to see the saved questions</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="568" height="217" src="https://youmator.com/wp-content/uploads/2021/05/questions_list.png" alt="" class="wp-image-267" srcset="/wp-content/uploads/2021/05/questions_list.png 568w, /wp-content/uploads/2021/05/questions_list-300x115.png 300w" sizes="(max-width: 568px) 100vw, 568px" /><figcaption>List of all questions</figcaption></figure>
+
+
+
+<p>We have now successfully completed the step 3, the only remaining step is allowing the user to add the answer for a question.</p>
+
+
+
+<h3>Allow user to add answer for a question.</h3>
+
+
+
+<p>we are going to use the question.php which we created before to acheive this functionality.</p>
+
+
+
+<p>To do that we need to redirect the user from index.php to question.php, we are going to use the &lt;a&gt; element to link a question from index.php to question.php and also add a url parameter id in the index.php, so we alter the code like this in index.php.</p>
+
+
+
+<pre class="wp-block-code"><code>while ( $question_data = mysqli_fetch_assoc($questions_result) ) {
+	$question = $question_data&#91;'question'];
+	$answer = $question_data&#91;'answer'];
+		$id = $question_data&#91;'id'];
+
+	echo "&lt;div class='single-question'&gt;
+		&lt;b&gt;&lt;a href='question.php?id=$id'&gt;$question&lt;/a&gt;&lt;/b&gt;
+		&lt;p&gt;$answer&lt;/p&gt;
+	&lt;/div&gt;";
+
+}</code></pre>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="661" height="288" src="https://youmator.com/wp-content/uploads/2021/05/question_with_link.png" alt="" class="wp-image-278" srcset="/wp-content/uploads/2021/05/question_with_link.png 661w, /wp-content/uploads/2021/05/question_with_link-300x131.png 300w" sizes="(max-width: 661px) 100vw, 661px" /><figcaption>Question with link</figcaption></figure></div>
+
+
+
+<p>Now we would see the question with question link with the id param, the url should look like this.</p>
+
+
+
+<p>/forum/question.php?id=4</p>
+
+
+
+<p>The id parameter denotes the question id which is needed in question.php to show the question and answer, so lets add some code on question.php to show the question and a answer box.</p>
+
+
+
+<p>The url param id is parsed by php and provided to us in the format $_GET[&#8216;id&#8217;] , we are going to use the variable to show the question and answer from db. We need create a sql query to get the question and answer data for id.</p>
+
+
+
+<p>To access the database we need to have our database connection code from index.php, lets copy it down to question.php</p>
+
+
+
+<pre class="wp-block-code"><code>&lt;?php
+
+$host = 'localhost';
+
+$username = 'phpmyadmin';
+
+$password = 'some_pass';
+
+$database = 'forum';
+
+$database_connection = mysqli_connect($host, $username, $password, $database);
+
+
+$id = $_GET&#91;'id']; // we get the id url parameter here.</code></pre>
+
+
+
+<p>we will write the query to get the data for id and print on the page </p>
+
+
+
+<pre class="wp-block-code"><code>$sql = "SELECT * FROM `question` WHERE id='$id'";
+
+$question_query = mysqli_query($database_connection, $sql);
+
+$question_data = mysqli_fetch_assoc($question_query);
+
+$question = $question_data&#91;'question'];
+$answer = $question_data&#91;'answer'];
+
+echo "
+&lt;form method='POST'&gt;
+&lt;div class='single-question'&gt;
+		&lt;b&gt;$question&lt;/b&gt;
+		&lt;br/&gt;&lt;br/&gt;
+		&lt;textarea name='answer' cols='100' rows='4'&gt;$answer&lt;/textarea&gt;
+		&lt;br/&gt;&lt;br/&gt;
+	&lt;/div&gt;
+	&lt;input type='submit'  value='Update answer'/&gt;
+	&lt;/form&gt;
+";</code></pre>
+
+
+
+<p>this should render a form on the page</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="951" height="372" src="https://youmator.com/wp-content/uploads/2021/05/single_question.png" alt="" class="wp-image-287" srcset="/wp-content/uploads/2021/05/single_question.png 951w, /wp-content/uploads/2021/05/single_question-300x117.png 300w, /wp-content/uploads/2021/05/single_question-768x300.png 768w" sizes="(max-width: 951px) 100vw, 951px" /></figure></div>
+
+
+
+<p>This form alone doesnt function, we need to add code in php side to save the data on question table, we are going to use the update query.</p>
+
+
+
+<p>if you noted this</p>
+
+
+
+<pre id="block-0aac6cfe-91c2-4b99-9a33-c48a21f17b6e" class="wp-block-code"><code>&lt;textarea name='answer' ...&gt;</code></pre>
+
+
+
+<p>then we would know that we need to get the $_POST[&#8216;answer&#8217;] variable to update the answer for the question. lets add the code to save the data just like we did for question</p>
+
+
+
+<pre class="wp-block-code"><code>// isset and ! empty check to see if variable is not empty and is set.
+
+if ( isset($_POST&#91;'answer'] ) &amp;&amp; !empty($_POST&#91;'answer'])) {
+
+	$answer = $_POST&#91;'answer'];
+
+	// This query will add the question to the mysql database, note that we are substituting
+	// the $query variable in the below query.
+	$query = "UPDATE `question` SET answer='$answer' WHERE id='$id'";
+
+	mysqli_query($database_connection, $query);
+
+	echo "Answer successfully updated";
+
+
+}
+</code></pre>
+
+
+
+<p>if you update the answer you should be able to see it on index.php page</p>
+
+
+
+<p>the question.php page will look like the below</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="933" height="253" src="https://youmator.com/wp-content/uploads/2021/05/test_question_answer.png" alt="" class="wp-image-296" srcset="/wp-content/uploads/2021/05/test_question_answer.png 933w, /wp-content/uploads/2021/05/test_question_answer-300x81.png 300w, /wp-content/uploads/2021/05/test_question_answer-768x208.png 768w" sizes="(max-width: 933px) 100vw, 933px" /></figure>
+
+
+
+<p>once you have updated the answer it should look like this on index.php</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="812" height="266" src="https://youmator.com/wp-content/uploads/2021/05/test_question_list.png.png" alt="" class="wp-image-297" srcset="/wp-content/uploads/2021/05/test_question_list.png.png 812w, /wp-content/uploads/2021/05/test_question_list.png-300x98.png 300w, /wp-content/uploads/2021/05/test_question_list.png-768x252.png 768w" sizes="(max-width: 812px) 100vw, 812px" /></figure>
+
+
+
+<p>Thats it, now we have a beautiful forum where people can add questions, all we need is some css love, lets add the css and check how it would look like.</p>
+
+
+
+<figure class="wp-block-image size-large is-style-default"><img loading="lazy" width="1024" height="501" src="https://youmator.com/wp-content/uploads/2021/05/2021-05-01_08-29-1024x501.png" alt="" class="wp-image-299" srcset="/wp-content/uploads/2021/05/2021-05-01_08-29-1024x501.png 1024w, /wp-content/uploads/2021/05/2021-05-01_08-29-300x147.png 300w, /wp-content/uploads/2021/05/2021-05-01_08-29-768x376.png 768w, /wp-content/uploads/2021/05/2021-05-01_08-29-1536x751.png 1536w, /wp-content/uploads/2021/05/2021-05-01_08-29.png 1615w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>PHP forum with css</figcaption></figure>
+
+
+
+<p>Yay, we have finally created the forum with PHP, MYSQL and Phpmyadmin.</p>
+
+
+
+<h3>Download source</h3>
+
+
+
+<p>you can download the source code for the forum from this github </p>
+
+
+
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://github.com/rebelwageslave/forum">Download forum source from github</a></div>
+</div>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
