@@ -12,7 +12,7 @@
 	<atom:link href="/tag/xampp/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Your Awesome Youtube Comrade</description>
-	<lastBuildDate>Sat, 01 May 2021 03:34:04 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 06 Jul 2021 00:44:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -87,7 +87,7 @@
 
 
 
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <iframe title="Install XAMPP In Windows 7" width="900" height="506" src="https://www.youtube.com/embed/zZ6NQRUYR2E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
@@ -97,7 +97,7 @@
 
 
 
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <iframe title="How to install XAMPP in Windows 10 &amp; 8.1/8/7" width="900" height="506" src="https://www.youtube.com/embed/_tTOmkxvUy0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
@@ -120,7 +120,7 @@ sudo apt install mysql-server</code></pre>
 
 
 
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <iframe title="Install LAMP Stack (Linux, Apache, MySQL, PHP) in Ubuntu 15.10" width="900" height="506" src="https://www.youtube.com/embed/vazRx1Ei8VA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
@@ -134,7 +134,7 @@ sudo apt install mysql-server</code></pre>
 
 
 
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
 <iframe title="Install Full Webserver (Apache, PHP, MySQL, phpMyAdmin) | macOS" width="900" height="506" src="https://www.youtube.com/embed/vHYh-m4iXw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
@@ -180,7 +180,7 @@ sudo apt install mysql-server</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="291" height="180" src="https://youmator.com/wp-content/uploads/2021/04/sublime-text-screenshot-mysql-apache.png" alt="" class="wp-image-201"/><figcaption>an image showing the folder structure with files index,php and question.php</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="291" height="180" src="/wp-content/uploads/2021/04/sublime-text-screenshot-mysql-apache.png" alt="" class="wp-image-201"/><figcaption>an image showing the folder structure with files index,php and question.php</figcaption></figure></div>
 
 
 
@@ -236,7 +236,7 @@ sudo apt install mysql-server</code></pre>
 
 
 
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="240" height="190" src="https://youmator.com/wp-content/uploads/2021/05/success_table_query.png" alt="" class="wp-image-223"/><figcaption>Correct database structure for our forum</figcaption></figure></div>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="240" height="190" src="/wp-content/uploads/2021/05/success_table_query.png" alt="" class="wp-image-223"/><figcaption>Correct database structure for our forum</figcaption></figure></div>
 
 
 
@@ -285,7 +285,7 @@ else {
 }
 
 
-?&gt;</code></pre>
+?></code></pre>
 
 
 
@@ -337,11 +337,11 @@ $database_connection = mysqli_connect($host, $username, $password, $database);
 
 
 
-<pre class="wp-block-code"><code>&lt;title&gt;Welcome to my forum | Add your question&lt;/title&gt;
-&lt;form method="POST"&gt;
-	&lt;input type="text" placeholder="Enter your question here" name="question"&gt;
-	&lt;input type="submit" value="Create question"&gt;
-&lt;/form&gt;
+<pre class="wp-block-code"><code>&lt;title>Welcome to my forum | Add your question&lt;/title>
+&lt;form method="POST">
+	&lt;input type="text" placeholder="Enter your question here" name="question">
+	&lt;input type="submit" value="Create question">
+&lt;/form>
 
 &lt;?php
 
@@ -395,11 +395,11 @@ $database_connection = mysqli_connect($host, $username, $password, $database);
 
 
 
-<pre class="wp-block-code"><code>&lt;title&gt;Welcome to my forum | Add your question&lt;/title&gt;
-&lt;form method="POST"&gt;
-	&lt;input type="text" placeholder="Enter your question here" name="question"&gt;
-	&lt;input type="submit" value="Create question"&gt;
-&lt;/form&gt;
+<pre class="wp-block-code"><code>&lt;title>Welcome to my forum | Add your question&lt;/title>
+&lt;form method="POST">
+	&lt;input type="text" placeholder="Enter your question here" name="question">
+	&lt;input type="submit" value="Create question">
+&lt;/form>
 
 &lt;?php
 
@@ -488,10 +488,10 @@ while ( $question_data = mysqli_fetch_assoc($questions_result) ) {
 	$question = $question_data&#91;'question'];
 	$answer = $question_data&#91;'answer'];
 
-	echo "&lt;div class='single-question'&gt;
-		&lt;b&gt;$question&lt;/b&gt;
-		&lt;p&gt;$answer&lt;/p&gt;
-	&lt;/div&gt;";
+	echo "&lt;div class='single-question'>
+		&lt;b>$question&lt;/b>
+		&lt;p>$answer&lt;/p>
+	&lt;/div>";
 }</code></pre>
 
 
@@ -525,10 +525,10 @@ while ( $question_data = mysqli_fetch_assoc($questions_result) ) {
 	$answer = $question_data&#91;'answer'];
 		$id = $question_data&#91;'id'];
 
-	echo "&lt;div class='single-question'&gt;
-		&lt;b&gt;&lt;a href='question.php?id=$id'&gt;$question&lt;/a&gt;&lt;/b&gt;
-		&lt;p&gt;$answer&lt;/p&gt;
-	&lt;/div&gt;";
+	echo "&lt;div class='single-question'>
+		&lt;b>&lt;a href='question.php?id=$id'>$question&lt;/a>&lt;/b>
+		&lt;p>$answer&lt;/p>
+	&lt;/div>";
 
 }</code></pre>
 
@@ -589,15 +589,15 @@ $question = $question_data&#91;'question'];
 $answer = $question_data&#91;'answer'];
 
 echo "
-&lt;form method='POST'&gt;
-&lt;div class='single-question'&gt;
-		&lt;b&gt;$question&lt;/b&gt;
-		&lt;br/&gt;&lt;br/&gt;
-		&lt;textarea name='answer' cols='100' rows='4'&gt;$answer&lt;/textarea&gt;
-		&lt;br/&gt;&lt;br/&gt;
-	&lt;/div&gt;
-	&lt;input type='submit'  value='Update answer'/&gt;
-	&lt;/form&gt;
+&lt;form method='POST'>
+&lt;div class='single-question'>
+		&lt;b>$question&lt;/b>
+		&lt;br/>&lt;br/>
+		&lt;textarea name='answer' cols='100' rows='4'>$answer&lt;/textarea>
+		&lt;br/>&lt;br/>
+	&lt;/div>
+	&lt;input type='submit'  value='Update answer'/>
+	&lt;/form>
 ";</code></pre>
 
 
@@ -618,7 +618,7 @@ echo "
 
 
 
-<pre id="block-0aac6cfe-91c2-4b99-9a33-c48a21f17b6e" class="wp-block-code"><code>&lt;textarea name='answer' ...&gt;</code></pre>
+<pre id="block-0aac6cfe-91c2-4b99-9a33-c48a21f17b6e" class="wp-block-code"><code>&lt;textarea name='answer' ...></code></pre>
 
 
 
